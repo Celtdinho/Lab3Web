@@ -35,7 +35,7 @@ Pada file **lab3_list.html** dibuat 3 jenis list:
 ```
 ### Hasil Kode
 
-![Gambar](List.png)
+![Gambar](Lab3web/List.png)
 
 ---
 
@@ -70,7 +70,7 @@ Pada file lab3_tabel.html dibuat tabel sederhana dan tabel dengan rowspan & cols
   </tbody>
 </table>
 ```
-![Gambar](Tabel.png)
+![Gambar](Lab3web/Tabel.png)
 
 ---
 
@@ -113,7 +113,7 @@ Tombol submit
   </select>
 </p>
 ```
-![Gambar](List.png)
+![Gambar](Lab3web/Form.png)
 
 ---
 
