@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 3 - Tabel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f9ff;
+      margin: 20px;
+    }
+    header {
+      text-align: center;
+      background: #197a43;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: 15px auto;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background: #197a43;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f0fdf4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tabel</h1>
+  </header>
+
+  <!-- Tabel sederhana -->
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Fakultas</th>
+        <th>Program Studi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td>Teknik</td>
+        <td>Teknik Informatika</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Teknik</td>
+        <td>Teknik Industri</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Teknik</td>
+        <td>Teknik Lingkungan</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabel dengan rowspan & colspan -->
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Fakultas</th>
+        <th>Program Studi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td rowspan="3">Teknik</td>
+        <td>Teknik Informatika</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Teknik Industri</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Teknik Lingkungan</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

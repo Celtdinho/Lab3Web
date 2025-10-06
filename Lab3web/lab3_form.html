@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f9ff;
+      margin: 20px;
+    }
+    header {
+      text-align: center;
+      background: #197a43;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 400px;
+      margin: auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form p {
+      margin: 12px 0;
+    }
+    form p > label {
+      display: inline-block;
+      width: 120px;
+      font-weight: bold;
+    }
+    input[type="text"], textarea, select {
+      width: 200px;
+      padding: 6px;
+      border: 1px solid #197a43;
+      border-radius: 4px;
+    }
+    select[multiple] {
+      height: 100px;
+    }
+    input[type="submit"] {
+      border: none;
+      background: #197a43;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    input[type="submit"]:hover {
+      background: #145a31;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Form</h1>
+  </header>
+
+  <form action="proses.php" method="post">
+    <fieldset>
+      <legend>Data Mahasiswa</legend>
+
+      <p>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+      </p>
+
+      <!-- Dropdown Menu -->
+      <p>
+        <label for="jurusan">Jurusan</label>
+        <select id="jurusan" name="jurusan">
+          <option value="ti">Teknik Informatika</option>
+          <option value="si">Sistem Informasi</option>
+          <option value="mi">Manajemen Informatika</option>
+          <option value="tk">Teknik Komputer</option>
+        </select>
+      </p>
+
+      <!-- Listbox Multiple Selection -->
+      <p>
+        <label for="hobi">Hobi</label>
+        <select id="hobi" name="hobi[]" multiple>
+          <option value="membaca">Membaca</option>
+          <option value="musik">Musik</option>
+          <option value="olahraga">Olahraga</option>
+          <option value="traveling">Traveling</option>
+          <option value="gaming">Gaming</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" value="Kirim Data">
+      </p>
+    </fieldset>
+  </form>
+</body>
+</html>
