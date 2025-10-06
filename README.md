@@ -1,6 +1,9 @@
 # Lab3Web
-
-
+```
+Nama : Naufal Rafi Haryanto
+Nim : 312410118
+Kelas : TI.24.A1
+```
 ---
 
 ## 1. Membuat List
@@ -30,6 +33,10 @@ Pada file **lab3_list.html** dibuat 3 jenis list:
   <dd>Teknik Lingkungan</dd>
 </dl>
 ```
+### Hasil Kode
+
+![Gambar](List.png)
+
 ---
 
 ## 2. Membuat Tabel
@@ -63,6 +70,8 @@ Pada file lab3_tabel.html dibuat tabel sederhana dan tabel dengan rowspan & cols
   </tbody>
 </table>
 ```
+![Gambar](Tabel.png)
+
 ---
 
 ## 3. Membuat Form
@@ -104,5 +113,8 @@ Tombol submit
   </select>
 </p>
 ```
+![Gambar](List.png)
+
+---
 
 
